@@ -12,8 +12,8 @@ import matplotlib.pyplot as plt
 env = gym.make('CartPole-v1')
 observation_space = env.observation_space.shape[0]
 action_space = env.action_space.n
-EPISODES = 100  # 10 # 100 # 1000
-LEARNING_RATE = 0.0001
+EPISODES = 1000  # 10 # 100 # 1000
+LEARNING_RATE = 0.001
 MEM_SIZE = 10000
 BATCH_SIZE = 64
 GAMMA = 0.95
